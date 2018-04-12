@@ -67,14 +67,14 @@ public class LaserPointer : MonoBehaviour
         if (Controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
         {
             RaycastHit hit;
-
+            Debug.Log("Touchpad pressé");
             // Send out a raycast from the controller
             if (Physics.Raycast(trackedObj.transform.position, transform.forward, out hit, 100, teleportMask))
             {
                 hitPoint = hit.point;
 
                 ShowLaser(hit);
-
+                Debug.Log("Showing reticle");
                 //Show teleport reticle
                 reticle.SetActive(true);
                 teleportReticleTransform.position = hitPoint + teleportReticleOffset;
@@ -84,6 +84,7 @@ public class LaserPointer : MonoBehaviour
         }
         else // Touchpad not held down, hide laser & teleport reticle
         {
+            Debug.Log("no reticle, touchpad up");
             laser.SetActive(false);
             reticle.SetActive(false);
         }
@@ -92,11 +93,13 @@ public class LaserPointer : MonoBehaviour
         if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad) && shouldTeleport)
         {
             Teleport();
+            Debug.Log("Telport ok");
         }
     }
 
     private void ShowLaser(RaycastHit hit)
     {
+        Debug.Log("Showing laser");
         laser.SetActive(true); //Show the laser
         laserTransform.position = Vector3.Lerp(trackedObj.transform.position, hitPoint, .5f); // Move laser to the middle between the controller and the position the raycast hit
         laserTransform.LookAt(hitPoint); // Rotate laser facing the hit point
@@ -106,6 +109,7 @@ public class LaserPointer : MonoBehaviour
 
     private void Teleport()
     {
+        Debug.Log("AZd");
         shouldTeleport = false; // Teleport in progress, no need to do it again until the next touchpad release
         reticle.SetActive(false); // Hide reticle
         Vector3 difference = cameraRigTransform.position - headTransform.position; // Calculate the difference between the center of the virtual room & the player's head
