@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 360a200613eced54290a037b024a4fd4
+timeCreated: 1523542427
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Achse
+    100002: Arm_LI
+    100004: Arm_RE
+    100006: ArmNieten_001
+    100008: ArmNieten_002
+    100010: ArmNieten_003
+    100012: ArmNieten_006
+    100014: ArmNieten_LI
+    100016: ArmNieten_RE
+    100018: Auge
+    100020: Auge_innen
+    100022: Body
+    100024: //RootNode
+    100026: Ground
+    100028: Nieten_002
+    100030: Nieten_003
+    100032: Nieten_004
+    100034: Nieten_005
+    100036: Nieten_006
+    100038: Nieten_007
+    100040: NietenR_
+    100042: Rad
+    100044: Rad_Nieten
+    100046: TurnTablehilfe
+    400000: Achse
+    400002: Arm_LI
+    400004: Arm_RE
+    400006: ArmNieten_001
+    400008: ArmNieten_002
+    400010: ArmNieten_003
+    400012: ArmNieten_006
+    400014: ArmNieten_LI
+    400016: ArmNieten_RE
+    400018: Auge
+    400020: Auge_innen
+    400022: Body
+    400024: //RootNode
+    400026: Ground
+    400028: Nieten_002
+    400030: Nieten_003
+    400032: Nieten_004
+    400034: Nieten_005
+    400036: Nieten_006
+    400038: Nieten_007
+    400040: NietenR_
+    400042: Rad
+    400044: Rad_Nieten
+    400046: TurnTablehilfe
+    2100000: Material_003
+    2100002: Material_001__UV_Rad2_png
+    2100004: Material
+    2100006: Material_007__UV_Arm_Links_png
+    2100008: Material_005__UV_Auge_ausen_png
+    2100010: Material_002__UV_Auge_Innen_png
+    2100012: Arm__UV_Arm_Links_png
+    2100014: Material_004
+    2100016: Material_008__UV_body_png
+    2300000: Achse
+    2300002: Arm_LI
+    2300004: Arm_RE
+    2300006: ArmNieten_001
+    2300008: ArmNieten_002
+    2300010: ArmNieten_003
+    2300012: ArmNieten_006
+    2300014: ArmNieten_LI
+    2300016: ArmNieten_RE
+    2300018: Auge
+    2300020: Auge_innen
+    2300022: Body
+    2300024: Ground
+    2300026: Nieten_002
+    2300028: Nieten_003
+    2300030: Nieten_004
+    2300032: Nieten_005
+    2300034: Nieten_006
+    2300036: Nieten_007
+    2300038: NietenR_
+    2300040: Rad
+    2300042: Rad_Nieten
+    3300000: Achse
+    3300002: Arm_LI
+    3300004: Arm_RE
+    3300006: ArmNieten_001
+    3300008: ArmNieten_002
+    3300010: ArmNieten_003
+    3300012: ArmNieten_006
+    3300014: ArmNieten_LI
+    3300016: ArmNieten_RE
+    3300018: Auge
+    3300020: Auge_innen
+    3300022: Body
+    3300024: Ground
+    3300026: Nieten_002
+    3300028: Nieten_003
+    3300030: Nieten_004
+    3300032: Nieten_005
+    3300034: Nieten_006
+    3300036: Nieten_007
+    3300038: NietenR_
+    3300040: Rad
+    3300042: Rad_Nieten
+    4300000: Ground
+    4300002: Rad
+    4300004: Rad_Nieten
+    4300006: NietenR_
+    4300008: Nieten_007
+    4300010: Nieten_006
+    4300012: Nieten_005
+    4300014: Nieten_002
+    4300016: Nieten_004
+    4300018: Nieten_003
+    4300020: Arm_RE
+    4300022: ArmNieten_RE
+    4300024: Auge
+    4300026: Auge_innen
+    4300028: Arm_LI
+    4300030: ArmNieten_LI
+    4300032: ArmNieten_006
+    4300034: ArmNieten_003
+    4300036: ArmNieten_002
+    4300038: ArmNieten_001
+    4300040: Achse
+    4300042: Body
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
